@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar{
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navbar li{
+
+  margin-right: 3rem;
+  
+}
+
+.nav-link{
+  color: #5D5A88;
+  transition: color 0.5s;
+}
+.nav-link:hover{
+  color: red;
+}
+
+.photo{
+  background-color: red;
+  height: 133px;
+  width: 135px;
+}
+
+.form-control{
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.btn-outline-danger{
+  margin-right: 4rem;
+}
+
+.giris{
+  color: #5D5A88;
+  background-color: white;
+  border-radius: 10px;
+  border-color: #D4D2E3;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  font-size: 1rem;
+}
+
+.giris:hover{
+  background-color: #EC1010;
+  color: white;
+  transition:  0.7s;
+}
+
+/*! --------- CAROUSEL ----------*/
+.carousel-item{
+  max-height: calc(100vh - 153px);
+}
+
+
+.carousel-item .btn{
+  width: 6rem;
+  margin-bottom: 1rem;
+}
+
+.carousel-indicators button {
+  background-color: red !important;
+  height: 0.4rem !important;
+  width: 3rem !important;
+  margin-right: 0.5rem !important;
+}
+
+.carousel-caption{
+  bottom: 5rem;
+}
+
+.card{
+  transition: transform 1s;
+}
+
+.card:hover{
+  transform: scale(1.05);
+}
+
+/*! --------------- CONTACT ----------------- */
+#contact{
+  text-align: center;
+}
+
+
+/*!----------------------- FOOTER ----------------------*/
+footer i{
+  font-size: 2rem;
+  color: white;
+  margin-right: .8rem;
+  transition: color 1s;
+}
+
+footer i:hover{
+  color: red;
+}
+
+/*! --------------- CLASSES ----------------- */
+.col-md-12 img{
+  max-width: 276px;
+  min-width: 180px;
+}
